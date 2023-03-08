@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit:wght@600&family=Poppins:wght@400;600&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.header {
+    /* MAIN HEADING ...............*/
+    width: 100%;
+    background-color: #E55451;
+    color: #990000;
+    text-align: center;
+
+}
+
+.header .heading {
+    /* HEADING TITLE ...............*/
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.container {
+    /* CONTAINNER ...............*/
+    width: 80%;
+    height: 50%vh;
+    margin: auto;
+    padding-top: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.form1bg {
+    /* SECTION 1 BG IMAGE ...............*/
+    width: 80%;
+    background-image: url("image/user-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .field {
+    /* FIELD SET ADJUSTMENT ...............*/
+    width: 80%;
+    padding: 25px;
+    margin: 25px;
+    background: rgba(100, 100, 100, 0.8);
+}
+
+.subTitle1 {
+    /* LEGEND TITLE ...............*/
+    background-color: rgba(255, 0, 100, 1);
+    color: white;
+    letter-spacing: 2px;
+    padding: 3px 0px 3px 10px;
+}
+
+i {
+    /* REQUIRED RED STAR * ...............*/
+    width: 10px;
+    color: #990000;
+    font-size: 22px;
+    margin: 3px 3px 0 0;
+}
+
+.container .name {
+    /* NAME DIV ...............*/
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#nam {
+    /* NAME INPUT ...............*/
+    width: 40%;
+    margin-left: 10px;
+    cursor: pointer;
+    outline-style: groove;
+    background-color: transparent;
+    color: white;
+}
+
+.container .gender {
+    /* GENDER DIV ...............*/
+    width: 800px;
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.lab1 {
+    /* GENDER GENDERS NAME ...............*/
+    width: 60px;
+    letter-spacing: 2px;
+}
+
+.container .gender #male,
+.container .gender #Female,
+.container .gender #Others {
+    /* RADIO BUTTON ...............*/
+    width: 100px;
+    cursor: pointer;
+}
+
+.container .email {
+    /* EMAIL DIV ...............*/
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#mail {
+    /* EMAIL INPUT ...............*/
+    width: 40%;
+    margin-left: 10px;
+    cursor: pointer;
+    outline-style: groove;
+    background-color: transparent;
+    color: white;
+}
+
+.container .address {
+    /* ADDRESS DIV ...............*/
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#addr {
+    /* ADDRESS TEXTAREA ...............*/
+    width: 40%;
+    margin-left: 10px;
+    cursor: pointer;
+    outline-style: groove;
+    background-color: transparent;
+    color: white;
+}
+
+.container .contNo {
+    /* CONTACT DIV ...............*/
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#contactno {
+    /* CONTACT INPUT ...............*/
+    width: 20%;
+    margin-left: 10px;
+    cursor: pointer;
+    outline-style: groove;
+    background-color: transparent;
+    color: white;
+}
+
+.container .PinC {
+    /* PINCODE DIV ...............*/
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#Pincode {
+    /* PINCODE INPUT ...............*/
+    width: 20%;
+    margin-left: 10px;
+    cursor: pointer;
+    outline-style: groove;
+    background-color: transparent;
+    color: white;
+}
+
+.container .state {
+    /* STATE SELECTION DIV ...............*/
+    display: flex;
+    width: 32%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+
+}
+
+.lab2 {
+    /* STATE HEADING ...............*/
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 275px;
+    letter-spacing: 2px;
+    padding-left: 14px;
+}
+
+#stateOpt {
+    /* STATE SELECTION OPTION ...............*/
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    padding: 3px;
+    outline-style: dashed;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#stateOpt option {
+    /* STATE SELECTION OPTION COLOR ...............*/
+    color: blue;
+}
+
+
+
+.container .paymentContainer {
+    /* CONTAINER 2 FOR PAYMENT CONTAINER ...............*/
+    width: 100%;
+    display: flex;
+    margin: 15px 0 0 0;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.paymentContainer .left-side-PC {
+    /*CONTAINER 2 LEFT SIDE DIV..........................*/
+    width: 40%;
+    height: 322px;
+
+}
+
+.left-side-PC img {
+    /*LEFT SIDE IMAGE TAG.................................*/
+    width: 100%;
+    height: 316px;
+}
+
+.paymentContainer .right-side-PC {
+    /*CONTAINER 2 RIGHT SIDE DIV...........................*/
+    width: 60%;
+    height: 316px;
+    background: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.right-side-PC .payHead {
+    /*RIGHT SIDE HEADING DIV................................*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: rgba(255, 0, 100, 1);
+}
+
+.payHead .paymentTitle {
+    /*RIGHT SIDE HEADING  TITLE...............................*/
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    padding: 16px 0 0 10px;
+    color: white;
+}
+
+.payHead img {
+    /*RIGHT SIDE HEADING  LOGO................................*/
+    width: 50px;
+    height: 50px;
+    padding: 16px 0 0 5px;
+}
+
+.right-side-PC .paymentDetails {
+    /*RIGHT SIDE PAYMENT INFORMATION DIV.....................*/
+    width: 80%;
+    padding: 0 20px;
+}
+
+.container .cardopppp {
+    /* SELECT CARD DIV........................................*/
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+
+}
+
+.lab3 {
+    /* SELECT CARD TITLE.......................................*/
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 140px;
+    padding-top: 8px;
+    margin-left: -20px;
+    letter-spacing: 2px;
+}
+
+#CardOpt {
+    /* SELECT CARD OPTION........................................*/
+    width: 200px;
+    background-color: rgba(255, 0, 100, 1);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#CardOpt option {
+    /* SELECT CARD OPTION COLOR....................................*/
+    color: white;
+    font-size: 18px;
+}
+
+.paymentDetails .cardno {
+    /* CARD NO DIV .................................................*/
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    
+}
+
+#CardNumber {
+    /* CARD NO INPUT ..............................................*/
+    width: 20%;
+    margin: 2px 0 0 23px;
+    cursor: pointer;
+    outline-style: double;
+    background: transparent;
+    color: white;
+    background-color: rgba(255, 0, 100, 1);
+}
+
+
+.paymentDetails .ExpDate {
+    /* EXPAIRY DATE DIV ..............................................*/
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+
+#ExpD {
+    /* EXPAIRY DATE INPUT ...............................................*/
+    width: 20%;
+    margin: 2px 0 0 6px;
+    cursor: pointer;
+    outline-style: double;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 0, 100, 1);
+}
+
+
+.paymentDetails .cvv {
+    /* CVV DIV ............................................................*/
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+
+#Cv {
+    /* CVV INPUT ..............................................................*/
+    width: 20%;
+    margin: 2px 0 0 65px;
+    cursor: pointer;
+    outline-style: double;
+    background-color: rgba(255, 0, 100, 1);
+    color: white;
+}
+
+.paymentDetails .btn {
+    /* BUTTON DIV FOR PAY NOW......................................................*/
+    width: 70%;
+    text-align: center;
+    margin: 30px 0 0 20px;
+}
+
+.paymentDetails .btn button {
+    width: 120px;
+    height: 30px;
+    background-color: rgba(255, 0, 100, 1);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.paymentDetails .btn button:hover {
+    background-color: white;
+    color: rgba(255, 0, 100, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer {
+    /* FOOTER SECTION................................................................*/
+    width: 100%;
+    height: 20px;
+    margin-top: 2px;
+    background-color: #E55451;
+    color: #990000;
+    text-align: center;
+}
+
+.footer .foot {
+    font-size: 18px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}

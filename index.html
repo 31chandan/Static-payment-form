@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ............HEADING SECTION................... -->
+    <div class="header">
+        <h1 class="heading">USER INFORMATION AND PAYMENT FORM</h1>
+    </div>
+    <!-- ............CONTAINER................... -->
+    <div class="container">
+        <form> <!-- ............FORM STARTS................... -->
+            <div class="form1bg">
+                <fieldset class="field"> <!-- ............FIELDSET................... -->
+                    <legend>
+                        <h2 class="subTitle1">USER INFO:---</h2>
+                    </legend> <!-- ............USER INFORMATION................... -->
+                    <div class="name">
+                        <i>*</i>Name: <input type="text" name="Name" value="" required="" id="nam" />
+                    </div>
+                    <div class="gender">
+                        Gender:
+                        <span><input type="radio" name="Gender" id="male"><label for="Male" class="lab1">Male</label>
+                            <input type="radio" name="Gender" id="Female"><label for="femail"
+                                class="lab1">Femail</label>
+                            <input type="radio" name="Gender" id="Others"><label for="Others"
+                                class="lab1">Others</label></span>
+                    </div>
+                    <div class="address">
+                        <i>*</i> Address: <textarea name="address" id="addr" cols="30" rows="4" required=""></textarea>
+                    </div>
+                    <div class="state">
+                        <label for="choose" class="lab2">Choose Your State:</label>
+                        <select name="State" id="stateOpt">
+                            <option value="">Select Your State</option>
+                            <option value="West Bengal">West Bengal</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Noida">Noida</option>
+                            <option value="J&K">J&K</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Banglore">Banglore</option>
+                        </select>
+                    </div>
+                    <div class="PinC">
+                        <i>*</i>PinCode: <input type="number" name="Pincode" value="" required="" id="Pincode" />
+                    </div>
+                    <div class="email">
+                        <i>*</i>Email: <input type="email" name="email" value="" required="" id="mail" />
+                    </div>
+                    <div class="contNo">
+                        <i>*</i>Phone/Mobile No: <input type="number" name="Contact" value="" required=""
+                            id="contactno" />
+                    </div>
+                </fieldset>
+            </div>
+            <div class="paymentContainer"> <!-- ............SUB-CONTAINER................... -->
+                <div class="left-side-PC">
+                    <img src="image/payment-left-bg.jpg" alt="Just a Payment Dummy Image">
+                </div>
+                <div class="right-side-PC">
+                    <div class="payHead">
+                        <h2 class="paymentTitle">Payment Details</h2>
+                        <img src="image/payment-title-icon.png" alt="icon">
+                    </div> <!-- ............PAYMENTS INFORMATION................... -->
+                    <div class="paymentDetails">
+                        <div class="cardopppp">
+                            <label for="Cards" class="lab3">Card Type:</label>
+                            <select name="CardType" id="CardOpt">
+                                <option value="">Select Your Card</option>
+                                <option value="Credit Card">Credit Card</option>
+                                <option value="Debit Card">Debit Card</option>
+                                <option value="Master Card">Master Card</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="cardno">
+                            CardNo: <input type="number" name="Cardno" value="" required="" id="CardNumber">
+                        </div>
+                        <div class="cvv">
+                            Cvv: <input type="password" name="Pass" value="" required="" id="Cv">
+                        </div>
+                        <div class="ExpDate">
+                            Exp-Date: <input type="date" name="Exp-Date" required="" id="ExpD">
+                        </div>
+                        <div class="btn">
+                            <button type="submit">CLICK TO PAY</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="footer">
+        <h3 class="foot">THANKYOU FOR VISITING TO OUR WEBSITES</h3>
+    </div>
+</body>
+
+</html>
